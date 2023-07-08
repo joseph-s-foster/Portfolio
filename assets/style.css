@@ -18,8 +18,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    position: fixed;
     width: 100%;
+    height: 40px;
     padding: 1%;
     background-color: var(--dark);
     color: var(--light);
@@ -65,7 +65,8 @@ a {
     text-decoration: none;
 }
 
-nav a:hover {
+
+a:hover {
     color: var(--grey);
 }
 
@@ -103,11 +104,11 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .images {
-    padding: 3%;
+    padding: 1%;
     width: 25%;
     max-width: 30%;
     display: flex;
@@ -116,7 +117,7 @@ h3 {
 }
 
 .images img{
-    width:80%;
+    width:100%;
 }
 
 a img:hover {
@@ -136,6 +137,10 @@ section p {
     text-align: center;
 }
 
+.top {
+    padding-top: 25px;
+}
+
 .footer {
     padding-top: 25px;
     width: 100%;
@@ -145,11 +150,31 @@ section p {
     color: var(--light);
 }
 
+@media screen and (max-width: 1300px) {
+    .images {
+        width: 35%;
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .tiles {
+       width: 175%;
+       display: flex;
+       flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 430px) {
     .header {
         display: block;
     }
+}
 
+@media screen and (max-width: 260px) {
+    .nav {
+        
+    }   
 }
 
 
@@ -157,20 +182,4 @@ section p {
     .header {
         flex: none;
     }   
-
-}
-
-
-@media screen and (max-width: 1000px) {
-    .images {
-        width: 50%;
-        max-width: 60%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .tiles {
-       display: flex;
-       flex-direction: column;
-    }
 }
