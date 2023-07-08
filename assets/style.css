@@ -55,7 +55,6 @@ body {
     line-height: 40px;
     font-size: 1rem;
     display: inline-block;
-    flex-wrap: nowrap;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -172,14 +171,15 @@ section p {
 }
 
 @media screen and (max-width: 260px) {
-    .nav {
-        
+    .header nav ul li {
+        display: block;
+        justify-content: center;
     }   
 }
 
 
 @media screen and (max-width: 185px) {
-    .header {
-        flex: none;
+    .header h1{
+        display: inline-block;
     }   
 }
