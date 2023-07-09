@@ -98,6 +98,14 @@ h3 {
     padding-top: 2%;
 }
 
+.tile {
+    width: 238%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .tiles {
     flex: 1;
     display: flex;
@@ -108,8 +116,8 @@ h3 {
 
 .images {
     padding: 1%;
-    width: 25%;
-    max-width: 30%;
+    width: 35%;
+    max-width: 40%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -149,14 +157,15 @@ section p {
     color: var(--light);
 }
 
-@media screen and (max-width: 1300px) {
-    .images {
-        width: 35%;
-        max-width: 40%;
+@media screen and (max-width: 850px) {
+    .tile {
+       width: 175%;
+       display: flex;
+       flex-direction: column;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
     .tiles {
        width: 175%;
        display: flex;
