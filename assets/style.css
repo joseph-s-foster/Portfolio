@@ -14,6 +14,7 @@ body {
     height: 100vh;
     background-color: var(--dark);
     font-family: 'Project Sans', sans-serif;
+    color: var(--light);
 }
 
 .header {
@@ -25,7 +26,6 @@ body {
     align-items: center;
     padding: 4px;
     background-color: var(--dark);
-    color: var(--light);
    }
 
 .header h1 {
@@ -136,6 +136,9 @@ p {
     padding-top: 4%;
 }
 
+.top:hover {
+    text-decoration: underline;
+}
 .footer {
     padding-top: 24px;
     padding-bottom: 12px;
@@ -145,7 +148,7 @@ p {
     color: var(--light);
 }
 
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 850px) {
     .tiles {
        width: 100%;
        display: flex;
@@ -153,7 +156,7 @@ p {
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
     .header {
         position: static;
         display: block;
