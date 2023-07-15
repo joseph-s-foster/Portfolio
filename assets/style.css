@@ -58,7 +58,7 @@ a {
 
 
 nav a:hover {
-    text-decoration: underline;
+    color: var(--grey);
 }
 
 .image {
@@ -132,7 +132,7 @@ h2 {
 }
 
 .images:hover p {
-    text-decoration: underline;
+    color: var(--grey);
 }
 
 p {
@@ -160,7 +160,7 @@ p {
 }
 
 .top:hover {
-    text-decoration: underline;
+    color: var(--grey);
 }
 .footer {
     padding-top: 24px;
