@@ -193,7 +193,7 @@ p {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 650px) {
     .images {
         min-width: 95%;
     }
