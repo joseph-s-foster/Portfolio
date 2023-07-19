@@ -26,7 +26,7 @@ body {
     align-items: center;
     padding: 4px;
     background-color: var(--dark);
-   }
+}
 
 .header h1 {
     line-height: 37px;
@@ -128,7 +128,7 @@ h2 {
 }
 
 .images img {
-    width:100%;
+    width: 100%;
 }
 
 .images:hover p {
@@ -162,6 +162,7 @@ p {
 .top:hover {
     color: var(--grey);
 }
+
 .footer {
     padding-top: 24px;
     padding-bottom: 12px;
@@ -173,9 +174,15 @@ p {
 
 @media screen and (max-width: 850px) {
     .tiles {
-       width: 100%;
-       display: flex;
-       flex-direction: column;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .images {
+        min-width: 75%;
     }
 }
 
@@ -186,21 +193,22 @@ p {
     }
 }
 
+@media screen and (max-width: 420px) {
+    .images {
+        min-width: 95%;
+    }
+}
+
 @media screen and (max-width: 265px) {
     .header nav ul li {
         display: block;
         justify-content: center;
-    }   
+    }
 }
+
 @media screen and (max-width: 275px) {
     .div-nav ul li {
         display: block;
         justify-content: center;
-    }   
-}
-
-@media screen and (max-width: 250px) {
-    .images {
-        min-width: 120px;
     }
 }
