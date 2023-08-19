@@ -1,7 +1,7 @@
 :root {
     --light: #ffffff;
     --dark: #000;
-    --grey: #818181;
+    --grey: #333;
 }
 
 * {
@@ -63,7 +63,7 @@ nav a:hover {
 
 .image {
     z-index: -2;
-    display: flex;
+    display: fixed;
     flex-shrink: 1;
     height: 100%;
     width: 100%;
@@ -105,19 +105,11 @@ h2 {
     padding-bottom: 2%;
 }
 
-.tile {
+.tiles {
     width: 100%;
     flex: 1;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.tiles {
-    width: 49%;
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -172,17 +164,32 @@ p {
     color: var(--light);
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1200px) {
+    .tiles {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      
+    .images {
+        padding: 1%;
+        width: calc(50% - 1%);
+        max-width: calc(50% - 1%);
+        box-sizing: border-box;
+      }
+}
+
+@media screen and (max-width: 768px) {
     .tiles {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-}
 
-@media screen and (max-width: 850px) {
     .images {
-        min-width: 75%;
+        min-width: 95%;
     }
 }
 
@@ -193,20 +200,12 @@ p {
     }
 }
 
-@media screen and (max-width: 650px) {
-    .images {
-        min-width: 95%;
-    }
-}
-
-@media screen and (max-width: 265px) {
+@media screen and (max-width: 275px) {
     .header nav ul li {
         display: block;
         justify-content: center;
     }
-}
 
-@media screen and (max-width: 275px) {
     .div-nav ul li {
         display: block;
         justify-content: center;
