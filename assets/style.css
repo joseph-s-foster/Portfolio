@@ -1,7 +1,7 @@
 :root {
     --light: #ffffff;
     --dark: #000;
-    --grey: #333;
+    --grey: #d3d3d3;
 }
 
 * {
@@ -58,11 +58,11 @@ a {
 
 
 nav a:hover {
-    color: var(--grey);
+    text-decoration: underline;
 }
 
 .image {
-    z-index: -2;
+    z-index: -1000;
     display: fixed;
     flex-shrink: 1;
     height: 100%;
@@ -124,7 +124,7 @@ h2 {
 }
 
 .images:hover p {
-    color: var(--grey);
+    text-decoration: underline;
 }
 
 p {
@@ -152,7 +152,7 @@ p {
 }
 
 .top:hover {
-    color: var(--grey);
+    text-decoration: underline;
 }
 
 .footer {
@@ -181,7 +181,7 @@ p {
       }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 678px) {
     .tiles {
         width: 100%;
         display: flex;
