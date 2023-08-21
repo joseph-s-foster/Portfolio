@@ -38,7 +38,7 @@ body {
 .header h1 {
     line-height: 37px;
     float: left;
-    padding-left: 12px;
+    padding-left: 6px;
     font-size: 2rem;
 }
 
@@ -206,7 +206,7 @@ p {
 
 @media screen and (max-width: 678px) {
     .tiles {
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
     }
@@ -216,7 +216,7 @@ p {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 440px) {
     .header {
         position: static;
         display: block;
