@@ -150,7 +150,7 @@ h2 {
 }
 
 .images:hover {
-  scale: 1.02;
+  /* scale: 1.02; */
   text-decoration: underline;
 }
 
