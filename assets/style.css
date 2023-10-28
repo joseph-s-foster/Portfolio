@@ -73,6 +73,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+.padding {
+  padding-top: 2%;
+}
+
 /* Images styles */
 .image {
   z-index: -2;
