@@ -49,6 +49,10 @@ body {
   z-index: 100;
 }
 
+/* CSS for hiding the header by default */
+.hidden-header {
+  display: none;
+}
 
 /* Header styles */
 .header {
@@ -102,6 +106,11 @@ nav a:hover {
   /*   scale: 1.02; */
   text-decoration: underline;
 }
+
+.main {
+  display: none;
+}
+
 
 /* Style the active section when a link is clicked */
 #Languages:target,

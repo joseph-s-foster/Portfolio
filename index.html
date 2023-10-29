@@ -9,27 +9,32 @@
   </head>
 
   <body id="top">
-    <header class="header">
-      <h1><a href="#top">Joe Foster</a></h1>
-      <nav>
-        <ul>
-          <li><a href="#Languages">Languages</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <section class="container">
-      <img class="fixed-image" src="./assets/images/black.png" alt="placeholder" />
-      <a href="#Languages" class="power-container">
-        <img class="power" src="./assets/images/icon.png" alt="power button" />
-      </a>
-    </section>
+    <body id="top">
+      <header class="hidden-header">
+        <div class="header">
+          <h1><a href="#top">Joe Foster</a></h1>
+          <nav>
+            <ul>
+              <li><a href="#Languages">Languages</a></li>
+              <li><a href="#Projects">Projects</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
     
-    
+      <section class="container">
+        <img
+          class="fixed-image"
+          src="./assets/images/black.png"
+          alt="placeholder"
+        />
+        <a href="#Languages" class="power-container">
+          <img class="power" src="./assets/images/icon.png" alt="power button" id="powerButton" />
+        </a>
+      </section>
 
-    <main>
+    <main class="main">
       <section class="segments" id="Languages">
         <div class="border">
           <h2>Languages</h2>
@@ -142,5 +147,6 @@
     </main>
 
     <footer class="footer">&copy; 2023 Joe Foster</footer>
+    <script src="assets/script.js"></script>
   </body>
 </html>
