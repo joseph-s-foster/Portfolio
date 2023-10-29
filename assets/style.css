@@ -51,6 +51,11 @@ body {
   overflow: hidden;
 }
 
+.power {
+  width: 64px;
+  height: 64px;
+}
+
 .hidden-header {
   display: none;
 }
