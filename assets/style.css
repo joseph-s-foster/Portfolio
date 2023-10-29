@@ -232,7 +232,7 @@ p {
 
 /* Footer styles */
 .footer {
-  position: absolute;
+  position: fixed; /* Change to fixed */
   bottom: 0;
   left: 0;
   width: 100%;
@@ -241,6 +241,7 @@ p {
   font-size: 0.75rem;
   text-align: center;
   color: var(--color-light);
+  background-color: var(--color-dark); /* Add a background color to match the header's background */
 }
 
 /* Media Queries */
