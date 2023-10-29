@@ -17,7 +17,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 /* Body styles */
 body {
   height: 100vh;
@@ -75,8 +74,12 @@ a {
 }
 
 nav a:hover {
-/*   scale: 1.02; */
+  /*   scale: 1.02; */
   text-decoration: underline;
+}
+
+#Languages {
+  padding-top: 48px;
 }
 
 /* Style the active section when a link is clicked */
@@ -118,11 +121,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-
-.buffer {
-  background-color: #000;
-  margin-bottom: .45%;
 }
 
 h2 {
@@ -246,10 +244,6 @@ p {
 }
 
 @media screen and (max-width: 678px) {
-  .buffer {
-    height: 36px;
-  }
-  
   .tiles {
     width: 90%;
     display: flex;
@@ -268,7 +262,11 @@ p {
     height: 72px;
   }
   #Languages {
-    padding-top: 36px;
+    padding-top: 72px;
+  }
+  #Languages:target,
+  #Projects:target {
+    padding-top: 72px; /* Remove the padding when a section is targeted */
   }
   /* .fixed-image {
     margin-top: 80px;
@@ -281,19 +279,42 @@ p {
   }
 
   .header nav ul li {
-    display: block;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .div-nav ul li {
+  /* .div-nav ul li {
     display: block;
     justify-content: center;
-  }
+  } */
 
   #Languages {
-    padding-top: 120px;
+    padding-top: 144px;
+  }
+  #Languages:target,
+  #Projects:target {
+    padding-top: 144px; /* Remove the padding when a section is targeted */
   }
   /* .fixed-image {
     margin-top: 160px;
   } */
+}
+
+@media screen and (max-width: 192px) {
+  .header {
+    height: 188px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #Languages {
+    padding-top: 192px;
+  }
+  #Languages:target,
+  #Projects:target {
+    padding-top: 192px; /* Remove the padding when a section is targeted */
+  }
 }
