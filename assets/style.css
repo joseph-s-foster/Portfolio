@@ -108,14 +108,8 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.main {
-  opacity: 0;
-}
-
-
-.fade-in {
-  opacity: 1;
-  transition: opacity .75s ease-in-out;
+.hidden-main {
+  display: none;
 }
 
 #Languages:target,
@@ -130,12 +124,6 @@ nav a:hover {
   height: auto;
   width: 100%;
   opacity: 0;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
 }
 
 h2 {
