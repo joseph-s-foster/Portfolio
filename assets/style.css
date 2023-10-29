@@ -38,7 +38,7 @@ body {
   left: 0;
   width: 100%;
   height: auto;
-  z-index: -1;
+  z-index: 10;
 }
 
 .power-container {
@@ -239,6 +239,7 @@ p {
   font-size: 0.75rem;
   text-align: center;
   color: var(--color-light);
+  z-index: 10;
 }
 
 @media screen and (max-width: 1200px) {
