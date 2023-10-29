@@ -43,6 +43,7 @@ body {
   width: 100%;
   height: auto;
   z-index: -1;
+  overflow: hidden;
 }
 
 .power-container {
@@ -51,6 +52,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 100;
+  overflow: hidden;
 }
 
 /* CSS for hiding the header by default */
@@ -112,7 +114,13 @@ nav a:hover {
 }
 
 .main {
-  display: none;
+  opacity: 0;
+}
+
+
+.fade-in {
+  opacity: 1;
+  transition: opacity .75s ease-in-out;
 }
 
 /* Style the active section when a link is clicked */
