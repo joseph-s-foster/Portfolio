@@ -1,159 +1,102 @@
 <!DOCTYPE html>
+
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/reset.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
-    <title>Joe Foster | Portfolio</title>
-  </head>
 
-  <body>
-    <header class="hidden-header">
-      <div class="header">
-        <h1>
-          <a href="https://joseph-s-foster.github.io/Portfolio/">Joe Foster</a>
-        </h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/reset.css">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Joe Foster | Portfolio</title>
+</head>
 
+<body>
+
+  <header class="hidden-header">
+    <div class="header">
+      <h1>
+        <a href="https://joseph-s-foster.github.io/Portfolio/">Joe Foster</a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#Languages">Languages</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container">
+    <img class="fixed-image" src="./assets/images/black.png" alt="placeholder">
+    <a href="#Languages" class="power-container">
+      <img class="power" src="./assets/images/icon.png" alt="power button" id="powerButton">
+    </a>
+  </section>
+
+  <main class="main">
+
+    <section class="segments" id="Languages">
+      <div class="border">
+        <h2>Languages</h2>
+      </div>
+      <div class="icons">
+        <a class="logos"><img src="assets/icons/html.svg" alt="html icon"></a>
+        <a class="logos"><img src="assets/icons/css.svg" alt="css icon"></a>
+        <a class="logos"><img src="assets/icons/javascript.svg" alt="javascript icon"></a>
+        <a class="logos"><img src="assets/icons/node.svg" alt="node icon"></a>
+        <a class="logos"><img src="assets/icons/express.svg" alt="express icon"></a>
+        <a class="logos"><img src="assets/icons/mysql.svg" alt="mysql icon"></a>
+        <a class="logos"><img src="assets/icons/handlebars.svg" alt="handlebars icon"></a>
+        <a class="logos"><img src="assets/icons/mongodb.svg" alt="mongodb icon"></a>
+      </div>
+    </section>
+
+    <section class="segments" id="Projects">
+      <div class="border">
+        <h2>Projects</h2>
+      </div>
+      <div class="tiles">
+        <a href="https://joseph-s-foster.github.io/Weather-Dashboard/" class="images">
+          <img src="./assets/images/flow.png" alt="a purple graphic" title="Search weather forecasts in a given area.">
+          <p>Weather Dashboard</p>
+        </a>
+        <a href="https://joseph-s-foster.github.io/Coding-Quiz/" class="images">
+          <img src="./assets/images/motion.png" alt="a magenta graphic" title="A timed coding quiz with local leaderboard.">
+          <p>Coding Quiz</p>
+        </a>
+        <a href="https://joseph-s-foster.github.io/Password-Generator/" class="images">
+          <img src="./assets/images/screen.png" alt="a blue graphic" title="Generate a random password up to 128 characters in length.">
+          <p>Password Generator</p>
+        </a>
+        <a href="https://mischief-managed-04c91ebdf0c9.herokuapp.com/" class="images">
+          <img src="./assets/images/angles.png" alt="a pink graphic" title="A Harry Potter book series reading tracker">
+          <p>Mischief Managed</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="segments" id="Contact">
+      <div class="border">
+        <h2>Contact</h2>
+      </div>
+      <div class="div-nav">
         <nav>
           <ul>
-            <li><a href="#Languages">Languages</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><a href="mailto:joseph.s.foster@icloud.com" class="top">Email</a></li>
+            <li><a href="https://github.com/joseph-s-foster" class="top">GitHub</a></li>
+            <li><a href="#Languages" class="top">Back to Top</a></li>
           </ul>
         </nav>
       </div>
-    </header>
-
-    <section class="container">
-      <img
-        class="fixed-image"
-        src="./assets/images/black.png"
-        alt="placeholder"
-      />
-      <a href="#Languages" class="power-container">
-        <img
-          class="power"
-          src="./assets/images/icon.png"
-          alt="power button"
-          id="powerButton"
-        />
-      </a>
     </section>
 
-    <main class="main">
-      <section class="segments" id="Languages">
-        <div class="border">
-          <h2>Languages</h2>
-        </div>
-        <div class="icons">
-          <a class="logos">
-            <img src="assets/icons/html.svg" alt="html icon" />
-          </a>
-          <a class="logos">
-            <img src="assets/icons/css.svg" alt="css icon" />
-          </a>
-          <a class="logos">
-            <img src="assets/icons/javascript.svg" alt="javascript icon" />
-          </a>
-          <a class="logos">
-            <img src="assets/icons/node.svg" alt="node icon" />
-          </a>
-          <a class="logos">
-            <img src="assets/icons/express.svg" alt="express icon" />
-          </a>
-          <a class="logos">
-            <img src="assets/icons/mysql.svg" alt="mysql icon" />
-          </a>
-          <a class="logos">
-            <img src="assets/icons/handlebars.svg" alt="handlebars icon" />
-          </a>
-          <a class="logos">
-            <img src="assets/icons/mongodb.svg" alt="mongodb icon" />
-          </a>
-        </div>
-      </section>
+  </main>
 
-      <section class="segments" id="Projects">
-        <div class="border">
-          <h2>Projects</h2>
-        </div>
-        <div class="tiles">
-          <a
-            href="https://joseph-s-foster.github.io/Weather-Dashboard/"
-            class="images"
-          >
-            <img
-              src="./assets/images/flow.png"
-              alt="a purple graphic"
-              title="Search weather forecasts in a given area."
-            />
-            <p>Weather Dashboard</p>
-          </a>
-          <a
-            href="https://joseph-s-foster.github.io/Coding-Quiz/"
-            class="images"
-          >
-            <img
-              src="./assets/images/motion.png"
-              alt="a magenta graphic"
-              title="A timed coding quiz with local leaderboard."
-            />
-            <p>Coding Quiz</p>
-          </a>
-          <a
-            href="https://joseph-s-foster.github.io/Password-Generator/"
-            class="images"
-          >
-            <img
-              src="./assets/images/screen.png"
-              alt="a blue graphic"
-              title="Generate a random password up to 128 characters in length."
-            />
-            <p>Password Generator</p>
-          </a>
-          <a
-            href="https://mischief-managed-04c91ebdf0c9.herokuapp.com/"
-            class="images"
-          >
-            <img
-              src="./assets/images/angles.png"
-              alt="a pink graphic"
-              title="A Harry Potter book series reading tracker"
-            />
-            <p>Mischief Managed</p>
-          </a>
-        </div>
-        <div class="tiles">
-          <!-- Add more project tiles here -->
-        </div>
-      </section>
+  <footer class="footer">Joe Foster 2023 &copy;</footer>
 
-      <section class="segments" id="Contact">
-        <div class="border">
-          <h2>Contact</h2>
-        </div>
-        <div class="div-nav">
-          <nav>
-            <ul>
-              <li>
-                <a href="mailto:joseph.s.foster@icloud.com" class="top"
-                  >Email</a
-                >
-              </li>
-              <li>
-                <a href="https://github.com/joseph-s-foster" class="top"
-                  >GitHub</a
-                >
-              </li>
-              <li><a href="#Languages" class="top">Back to Top</a></li>
-            </ul>
-          </nav>
-        </div>
-      </section>
-    </main>
+  <script src="assets/script.js"></script>
 
-    <footer class="footer">Joe Foster 2023 &copy;</footer>
-    <script src="assets/script.js"></script>
-  </body>
+</body>
+
 </html>

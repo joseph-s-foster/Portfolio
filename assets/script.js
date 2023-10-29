@@ -14,14 +14,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   const reloadLink = document.getElementById("reloadLink");
-
-//   if (reloadLink) {
-//     reloadLink.addEventListener("click", function (event) {
-//       event.preventDefault(); // Prevent the default link behavior
-//       window.location.reload(); // Reload the page
-//     });
-//   }
-// });
