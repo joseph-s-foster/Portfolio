@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (powerButton) {
     powerButton.addEventListener("click", () => {
       main.classList.remove("main");
-      main.classList.add("fade-in"); // Add the fade-in class
+      main.classList.add("fade-in");
       header.classList.remove("hidden-header");
       container.style.display = "none";
       footer.style.position = "relative";
