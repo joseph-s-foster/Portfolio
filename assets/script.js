@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       header.classList.remove("hidden-header");
       container.style.display = "none";
       footer.style.position = "relative";
+      document.body.style.overflow = "auto";
     });
   }
 });
-
