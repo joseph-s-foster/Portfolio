@@ -2,13 +2,7 @@
 
 ## Description
 
-- Built a web-based portfolio via HTML and CSS.
-- Provided name and avatar.
-- Created functional nav bar.
-- Created project links via photos.
-- Created contact links.
-- Created responsive page design via CSS.
-- Added hover features.
+- Web-based portfolio using HTML, CSS, JavaScript.
 
 ## Link to site
 

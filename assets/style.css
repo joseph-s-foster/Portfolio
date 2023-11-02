@@ -257,8 +257,8 @@ p {
 
   .logos {
     padding: 1%;
-    width: calc(25% - 1%);
-    max-width: calc(25% - 1%);
+    width: calc(17% - 1%);
+    max-width: calc(17% - 1%);
     box-sizing: border-box;
   }
 }
