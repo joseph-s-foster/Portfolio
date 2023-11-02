@@ -52,14 +52,6 @@ body {
 .power {
   width: 64px;
   height: 64px;
-  border-radius: 5px;
-  width: 100%;
-  filter: brightness(.5);
-  transition: filter 0.5s; /* Add a 0.5s transition to the 'filter' property */
-}
-
-.power:hover {
-  filter: brightness(1);
 }
 
 .hidden-header {
@@ -118,17 +110,6 @@ nav a:hover {
 
 .hidden-main {
   display: none;
-}
-
-.logos img {
-  border-radius: 5px;
-  width: 100%;
-  filter: brightness(1);
-  transition: filter 0.5s;
-}
-
-.logos img:hover {
-  filter: brightness(2);
 }
 
 #Languages:target,
