@@ -18,7 +18,7 @@ body {
   background-color: var(--color-dark);
   font-family: "Project Sans", sans-serif;
   color: var(--color-light);
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .container {
@@ -111,6 +111,11 @@ nav a:hover {
 .hidden-main {
   display: none;
 }
+
+#Languages {
+  padding-top: 48px;
+}
+
 
 #Languages:target,
 #Projects:target {
@@ -219,7 +224,7 @@ p {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
